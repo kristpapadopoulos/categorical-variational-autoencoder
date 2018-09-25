@@ -2,7 +2,7 @@
 
 ### Keras, Tensorflow Probability and Eager Execution Implementation 
 
-Straight Through Gumbel-Softmax Estimator implemented as per paper: [Categorical Reparameterization with Gumbel-Softmax](https://arxiv.org/abs/1611.01144) (No Temperature or Learning Rate Annealing and Hard Prior used)
+Straight Through Gumbel-Softmax Estimator implemented as per paper: [Categorical Reparameterization with Gumbel-Softmax](https://arxiv.org/abs/1611.01144) (No temperature, learning rate annealing.  Hard prior used)
 
 Code developed from:
     
@@ -12,7 +12,7 @@ https://github.com/ericjang/gumbel-softmax/blob/master/gumbel_softmax_vae_v2.ipy
 2) Google Seedbank Convolutional Variational Autoencoder
 https://tools.google.com/seedbank/seed/5719238044024832
 
-#### cat_vae_v0.1.py - Sep 24, 2018
+#### File: cat_vae_v0.1.py - Sep 24, 2018
 
 - Tensorflow 1.10.0
 - Numpy 1.14.5
